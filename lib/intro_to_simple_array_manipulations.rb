@@ -42,10 +42,10 @@ def using_flatten(array)
   arr = array.flatten()
 end 
 
-def using_unshift(array,string)
-  array.unshift(string)
+def using_delete(array,string)
+  array.delete(string)
 end 
 
-def using_unshift(array,string)
-  array.unshift(string)
+def using_delete_at(array,int)
+  array.delete(int)
 end 
