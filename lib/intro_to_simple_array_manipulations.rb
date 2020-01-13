@@ -43,7 +43,7 @@ def using_concat(array,arr2)
 end 
 
 def using_insert(array,str)
-  array.insert(str,4)
+  array.insert(4,str)
 end 
 
 def using_unshift(array,string)
