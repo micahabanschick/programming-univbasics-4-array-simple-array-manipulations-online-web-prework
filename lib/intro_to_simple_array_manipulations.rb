@@ -6,18 +6,6 @@ def using_unshift(array,string)
   array.unshift(string)
 end 
 
-def using_unshift(array,string)
-  array.unshift(string)
-end 
-
-def using_unshift(array,string)
-  array.unshift(string)
-end 
-
-def using_unshift(array,string)
-  array.unshift(string)
-end 
-
 def using_pop(array)
   array.pop()
 end 
@@ -44,6 +32,18 @@ end
 
 def using_insert(array,str)
   array.insert(4,str)
+end 
+
+def using_uniq(array)
+  arr = array.uniq(string)
+end 
+
+def using_flatten(array)
+  arr = array.flatten()
+end 
+
+def using_unshift(array,string)
+  array.unshift(string)
 end 
 
 def using_unshift(array,string)
