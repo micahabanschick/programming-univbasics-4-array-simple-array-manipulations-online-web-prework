@@ -38,12 +38,12 @@ def shift_with_args(array)
   array.shift(2)
 end 
 
-def using_unshift(array,string)
-  array.unshift(string)
+def using_concat(array,arr2)
+  array.concat(arr2)
 end 
 
-def using_unshift(array,string)
-  array.unshift(string)
+def using_insert(array,str)
+  array.insert(str,4)
 end 
 
 def using_unshift(array,string)
